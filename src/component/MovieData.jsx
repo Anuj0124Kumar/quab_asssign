@@ -25,19 +25,17 @@ export default function MovieData() {
   //console.log(Movie);
 
   return (
-    
-      <div className="container " >
-        <div className="row">
-          {Movie.map((MovieData) => {
-            return (
-              <div className="col-md-4">
-                <MovieDataRander MoviePass={MovieData} />
-              </div>
-            );
-          })}
-        </div>
+    <div className="container ">
+      <div className="row">
+        {Movie.map((MovieData,idx) => {
+          return (
+            <div className="col-md-4" key={idx}>
+              <MovieDataRander MoviePass={MovieData} />
+            </div>
+          );
+        })}
       </div>
-    
+    </div>
   );
 }
 

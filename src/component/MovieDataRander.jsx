@@ -2,13 +2,15 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 export default function MovieDataRander(props) {
+
   let image = props.MoviePass.show.image;
   let name = props.MoviePass.show.name;
   let language = props.MoviePass.show.language;
   let rating = props.MoviePass.show.rating.average;
   let id = props.MoviePass.show.id;
+  
   return (
-    <div className="my-3 ">
+    <div className="my-3">
       <div>
         <div>
           <div className="card" style={{ width: "18rem" }}>
