@@ -111,7 +111,7 @@ export default function Summary() {
               </div>
               <div
                 id="summaryPart"
-                className="card-body p-5 desc "
+                className="card-body p-5 descPart "
                 style={{ fontSize: "20px", fontWeight: "600" }}
               >
                 <h4
