@@ -211,8 +211,9 @@ export default function Summary() {
 
                 <button
                   type="submit"
-                  className="btn btn-primary"
+                  className="btn btn-primary "
                   onClick={handelSubmit}
+                  style={{marginLeft:"120px"}}
                 >
                   Submit
                 </button>
