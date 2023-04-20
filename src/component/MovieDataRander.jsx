@@ -8,7 +8,7 @@ export default function MovieDataRander(props) {
   let rating = props.MoviePass.show.rating.average;
   let id = props.MoviePass.show.id;
   return (
-    <div className="my-3">
+    <div className="my-3 ">
       <div>
         <div>
           <div className="card" style={{ width: "18rem" }}>
@@ -21,7 +21,7 @@ export default function MovieDataRander(props) {
               className="card-img-top"
               alt="No Found"
             />
-            <div className="card-body">
+            <div className="card-body desc">
               <h5 className="card-title">{name}</h5>
               <p
                 class="card-text"
@@ -39,3 +39,5 @@ export default function MovieDataRander(props) {
     </div>
   );
 }
+
+//{`Movie/${id}`}

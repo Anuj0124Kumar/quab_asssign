@@ -25,8 +25,8 @@ export default function MovieData() {
   //console.log(Movie);
 
   return (
-    <>
-      <div className="container">
+    
+      <div className="container " >
         <div className="row">
           {Movie.map((MovieData) => {
             return (
@@ -37,7 +37,7 @@ export default function MovieData() {
           })}
         </div>
       </div>
-    </>
+    
   );
 }
 
